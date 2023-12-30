@@ -7,7 +7,7 @@ public class DFSArrayGraph {
     static int[][] static_graph;
     public static void main(String[] args) {
         int[][] graph = {
-                {0, 1, 1, 0, 0},
+                {0, 1, 1, 0, 0}, //행렬 그 자체가 노드번호를 의미한다.
                 {1, 0, 0, 1, 0},
                 {1, 0, 0, 1, 1},
                 {0, 1, 1, 0, 0},

@@ -31,7 +31,7 @@ public class HeapSort {
         }
         System.out.println(Arrays.toString(arr));
     }
-    //최대힙을 이용하여 정렬하기
+    //최소힙을 이용하여 정렬하기
 //    [1, 3, 5, 5, 6, 7, 7, 8, 9]
 
 
