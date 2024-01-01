@@ -45,11 +45,11 @@ public class HeapSort {
         int left = 2*root+1;
         int right = 2*root+2;
         //if(change가 발생하면) {
-        if(left < n && arr[left] > arr[largest]) {
+        if(left < n && arr[left] < arr[largest]) {
             largest = left;
         }
 
-        if(right < n && arr[right] > arr[largest]) {
+        if(right < n && arr[right] < arr[largest]) {
             largest = right;
         }
 
